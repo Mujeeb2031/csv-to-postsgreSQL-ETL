@@ -1,0 +1,20 @@
+CREATE TABLE ElectricVehicles (
+    id SERIAL PRIMARY KEY,
+    "VIN (1-10)" VARCHAR(50),
+    "County" VARCHAR(100),
+    "City" VARCHAR(100),
+    "State" VARCHAR(10),
+    "Postal Code" INT,
+    "Model Year" VARCHAR(100),
+    "Make" VARCHAR(100),
+    "Model" VARCHAR(100),
+    "Electric VehicleType" VARCHAR(100),
+    "Clean Alternative Fuel Vehicle (CAFV) Eligibility" VARCHAR(100),
+    "Electric Range" INT,
+    "Base MSRP" INT,
+    "Legislative District" INT,
+    "DOL Vehicle ID" INT,
+    "Vehicle Location" VARCHAR(255),
+    "Electric Utility" VARCHAR(255),
+    "2020 CensusTract" INT
+);
